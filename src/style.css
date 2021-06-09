@@ -27,6 +27,12 @@ li {
     line-height: 19px;
 }
 
+strong {
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+}
+
 .container {
     max-width: 600px;
     border-radius: 16px;
@@ -45,4 +51,18 @@ li {
 
 .link {
     color: #F65282;
+}
+
+.link:hover {
+    color: #F65282;
+}
+
+.overview {
+    margin-bottom: 20px;
+}
+
+.units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
 }
