@@ -46,10 +46,6 @@ a:hover {
     color: #F65282;
 }
 
-small {
-    text-transform: capitalize;
-}
-
 .container {
     max-width: 600px;
     border-radius: 16px;
@@ -99,3 +95,6 @@ small {
     background-color: #F65282;
 }
 
+.description {
+    text-transform: capitalize;
+}
