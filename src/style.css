@@ -39,6 +39,10 @@ a {
     color: #F65282;
 }
 
+input[type=search]:focus{
+  outline: 2px solid #F65282;
+}
+
 a:hover {
     color: #F65282;
 }
@@ -87,3 +91,8 @@ a:hover {
     width: 64px;
     float: left;
 }
+
+.btn-white {
+    background-color: #F65282;
+}
+
