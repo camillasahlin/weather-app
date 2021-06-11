@@ -26,7 +26,6 @@ li {
     padding: 0;
     font-weight: 100;
     line-height: 19px;
-    text-transform: capitalize;
 }
 
 strong {
@@ -45,6 +44,10 @@ input[type=search]:focus{
 
 a:hover {
     color: #F65282;
+}
+
+small {
+    text-transform: capitalize;
 }
 
 .container {
