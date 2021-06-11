@@ -7,10 +7,11 @@ body {
 }
 
 h1 {
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: bold;
     line-height: 28px;
     margin-bottom: 0;
+    color: #F65282;
 }
 
 ul {
@@ -67,6 +68,6 @@ strong {
     top: -34px;
 }
 
-.day-time {
+.date {
     color: #F65282;
 }
