@@ -71,3 +71,10 @@ strong {
 .date {
     color: #F65282;
 }
+
+.weather-temperature img {
+    margin-right: 10px;
+    height: 64px;
+    width: 64px;
+    float: left;
+}
