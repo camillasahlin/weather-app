@@ -107,6 +107,8 @@ a:hover {
 
 .weather-forecaste-date {
     font-size: 16px;
+    color: #F65282;
+    font-weight: bold;
 }
 
 .weather-forecast-temperature {
