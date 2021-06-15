@@ -53,6 +53,7 @@ a:hover {
     background: white;
     padding: 40px;
     margin: 60px auto;
+    max-width: 600px;
 }
 
 .weather-app {
@@ -97,4 +98,21 @@ a:hover {
 
 .description {
     text-transform: capitalize;
+}
+
+.weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.weather-forecaste-date {
+    font-size: 16px;
+}
+
+.weather-forecast-temperature {
+    font-size: 13px;
+}
+
+.weather-forecast-temperature-max {
+    font-weight: bold;
 }
