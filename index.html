@@ -22,7 +22,7 @@
         <div class="weather-app">
             <form id="search-form" class="mb-4">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-8">
                 <input 
                 type="search" 
                 placeholder="Type a city.." 
@@ -31,37 +31,39 @@
                 autocomplete="off"
                 />
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                 <input type="submit" value="Search" class="form-control btn btn-white shadow-sm w-100" />
                 </div>
                 </div>
             </form>
+            <div class="hide">
             <div class="overview">
-        <h1 id="city"></h1>
-        <ul>
-            <li>Last updated: <span id="date"></span></li>
-            <li id="description" class="description">Partly Cloudy</li>
-        </ul>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <div class="clearfix weather-temperature">
-                <img src="" alt="Cloudy" id="icon" class="float-left"/>
-                <strong id="temperature"></strong><span class="units">°C</span>
+            <h1 id="city"></h1>
+            <ul>
+                <li>Last updated: <span id="date"></span></li>
+                <li id="description" class="description">Partly Cloudy</li>
+            </ul>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="clearfix weather-temperature">
+                    <img src="" alt="Cloudy" id="icon" class="float-left"/>
+                    <strong id="temperature"></strong><span class="units">°C</span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            Humidity: <span id="humidity"></span>%
+                        </li>
+                        <li>
+                            Wind: <span id="wind"></span> km/h
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-6">
-                <ul>
-                    <li>
-                        Humidity: <span id="humidity"></span>%
-                    </li>
-                    <li>
-                        Wind: <span id="wind"></span> km/h
-                    </li>
-                </ul>
             </div>
-        </div>
-        </div>
+            </div>
         <div class="weather-forecast" id="forecast"></div>
         </div>
            <small>

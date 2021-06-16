@@ -56,6 +56,14 @@ a:hover {
     max-width: 600px;
 }
 
+@media (max-width: 450px) { 
+    .container {
+        padding: 2px;
+    }
+
+  }
+
+
 .weather-app {
     max-width: 600px;
     margin: 30px auto;
@@ -117,4 +125,8 @@ a:hover {
 
 .weather-forecast-temperature-max {
     font-weight: bold;
+}
+
+.hide {
+    display: none;
 }
